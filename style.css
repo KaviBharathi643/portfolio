@@ -134,13 +134,17 @@ section{padding:100px 48px;}
 .project-icon{width:48px;height:48px;border-radius:14px;background:linear-gradient(135deg,var(--accent),var(--accent2));display:flex;align-items:center;justify-content:center;font-size:1.3rem;margin-bottom:16px;}
 .project-name{font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-weight:600;color:var(--text);margin-bottom:10px;line-height:1.2;}
 .project-desc{font-size:0.88rem;line-height:1.7;color:var(--text2);}
-.project-card-bottom{padding:20px 28px 24px;border-top:1px solid var(--border);}
+.project-card-bottom{padding:20px 28px 24px;border-top:1px solid var(--border);display:flex;flex-direction:column;gap:0;}
 .project-tech{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px;}
 .tech-chip{font-family:'JetBrains Mono',monospace;font-size:0.72rem;padding:4px 10px;background:var(--bg2);color:var(--accent);border:1px solid var(--accent-light);border-radius:100px;}
 .project-link{display:inline-flex;align-items:center;gap:6px;font-size:0.82rem;font-weight:600;color:var(--text);text-decoration:none;transition:var(--transition);}
 .project-link svg{transition:transform .3s;}
 .project-link:hover{color:var(--accent);}
 .project-link:hover svg{transform:translate(3px,-3px);}
+.project-live-btn{display:inline-flex;align-items:center;gap:6px;font-size:0.82rem;font-weight:600;color:var(--accent);text-decoration:none;transition:var(--transition);margin-top:10px;padding:8px 16px;border:1.5px solid var(--accent-light);border-radius:100px;background:var(--accent-light);}
+.project-live-btn svg{transition:transform .3s;}
+.project-live-btn:hover{background:var(--accent);color:#fff;border-color:var(--accent);}
+.project-live-btn:hover svg{transform:translate(3px,-3px);}
 
 /* INTERNSHIP */
 #internship{background:var(--bg);}
